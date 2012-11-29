@@ -1,5 +1,6 @@
 /**
  * jQuery makeanime v1.0 - 2012-11-14
+ * https://github.com/tomothumb/jquery.makeanime
  * (c) 2012 Tomoyuki Tsujmioto
  * license: www.opensource.org/licenses/mit-license.php
  */
