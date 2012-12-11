@@ -1,5 +1,5 @@
 /**
- * jQuery makeanime v1.0 - 2012-11-14
+ * jQuery makeanime v1.0.1 - 2012-12-11
  * https://github.com/tomothumb/jquery.makeanime
  * (c) 2012 Tomoyuki Tsujmioto
  * license: www.opensource.org/licenses/mit-license.php
@@ -154,7 +154,7 @@
           .delay(arg.startAnime.delay)
           .animate( arg.startAnime.anime,
                     arg.startAnime.option)
-          .delay( opts.timeShowToDelay + arg.finishAnime.delay)
+          .delay( opts.showTime + arg.finishAnime.delay)
           .animate( arg.finishAnime.anime,
                     arg.finishAnime.option)
           ;
@@ -181,7 +181,7 @@
 
   // Default Options
   $.fn.makeanime.defaults = {
-    timeShowToDelay : 6000,
+    showTime : 6000,
     defaultAnime : {
       startinit : {
         top    : "",
